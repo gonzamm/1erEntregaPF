@@ -36,7 +36,7 @@ io.on("connection", (socket)=> {
   socket.emit("render", "Hola Cliente")
   socket.on("actualizacion", ()=>{
     /*Cuando hay modificaciones vuelvo a renderizas la vista para todos los clientes conectados*/
-    io.sockets.emit("render", "Actualizacion") //Se puede cambiar io.sockets.emit a socket.emit para que un solo cliente vea el carrito
+    io.sockets.emit("render", "Actualizacion") //Se puede cambiar io.sockets.emit a socket.emit para que un solo cliente vea la actualizacion del carrito
   })
 })
 
