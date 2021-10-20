@@ -1,7 +1,7 @@
 # 1erEntregaPF
 ## 1er pre entrega proyecto final curso backend coderhouse. Backend de un ecommerce.
 
-Se creo una interfaz, sencilla pero igualmente se recomienda probar mediante postman 
+Se creo una interfaz, sencilla pero igualmente se recomienda probar mediante postman  
 Toda la comunicacion entre servidor y cliente se hace mediante JSON  
 
 Dispone de 2 rutas principales.  
